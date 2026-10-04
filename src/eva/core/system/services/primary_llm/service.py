@@ -3,10 +3,14 @@ from eva.capabilities.executor import command_registry
 from ollama import ChatResponse, chat
 import os
 import json
+from pathlib import Path
+
+file_path = Path(__file__)
+src_path = file_path.parents[6]
 
 class PrimaryLLMService(Service):
     def __init__(self):
-        self.CHAT_LOG = "/Users/livelycoffee/Project EVA (Advanced)/EVA ARS Mk1.0/storage/context/chat_log.json"
+        self.CHAT_LOG = src_path / f"storage/context/chat_log.json"
         self.context_history = None
         self.MODEL = "qwen3:4b-q4_K_M" # "qwen3:4b-q4_K_M" (recommended)
 

@@ -3,10 +3,14 @@
 import subprocess, os
 import json
 import re
+from pathlib import Path
 
 # ---------- APP REGISTRY SETUP ----------
 
-MACOS_APP_REG_FILE = f"assets/system/macos/macos_app_registry.json"
+file_path = Path(__file__)
+src_path = file_path.parents[4]
+
+MACOS_APP_REG_FILE = src_path / f"assets/system/macos/macos_app_registry.json"
 app_registry = {}
 
 with open(MACOS_APP_REG_FILE, "r") as file:

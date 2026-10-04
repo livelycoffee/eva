@@ -6,10 +6,14 @@ import shutil, os
 import json
 import screen_brightness_control as sbc
 import pyvolume
+from pathlib import Path
 
 # ---------- APP REGISTRY SETUP ----------
 
-WIN_APP_REG_FILE = f"assets/system/windows/windows_app_registry.json"
+file_path = Path(__file__)
+src_path = file_path.parents[4]
+
+WIN_APP_REG_FILE = src_path / f"assets/system/windows/windows_app_registry.json"
 app_registry = {}
 
 with open(WIN_APP_REG_FILE, "r") as file:

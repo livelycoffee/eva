@@ -9,8 +9,8 @@ import wikipedia
 import time
 
 import platform
-from _platform import macos, windows
-from int_check import is_connected
+from eva.capabilities._platform import macos, windows
+from eva.capabilities.int_check import is_connected
 
 # ---------- PLATFORM AND HASHMAP SETUP ----------
 
