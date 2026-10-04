@@ -25,6 +25,7 @@ Thumbs.db
 
 # Logs
 logs/*
+!logs/.gitkeep
 
 # Testing / coverage
 .pytest_cache/
