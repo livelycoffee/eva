@@ -1,0 +1,12 @@
+[project]
+name = "eva"
+version = "0.1.0"
+description = "Experimental modular AI runtime for an advanced agent."
+requires-python = ">=3.14"
+
+dependencies = [
+    # Add dependencies here as needed --> (Use requirements.txt for now)
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

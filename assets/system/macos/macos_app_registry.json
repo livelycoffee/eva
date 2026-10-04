@@ -1,0 +1,30 @@
+{
+  "google_chrome": {
+    "name": "Google Chrome",
+    "aliases": ["chrome", "google", "browser", "google chrome", "googlechrome", "browser app"]
+  },
+  "spotify": {
+    "name": "Spotify",
+    "aliases": ["spotify", "Spotify", "music app", "spotify app", "musicapp", "spotifyapp"]
+  },
+  "settings": {
+    "name": "System Settings",
+    "aliases": ["settings", "system settings", "preferences", "system preferences", "device settings"]
+  },
+  "whatsapp": {
+    "name": "WhatsApp",
+    "aliases": ["whatsapp", "whats app", "whatapp", "whatsapp app"]
+  },
+  "current_app": {
+    "name": "current_app",
+    "aliases": ["current app", "open app", "active app"]
+  },
+  "safari": {
+    "name": "Safari",
+    "aliases": ["safari", "safari browser", "sarafi app"]
+  },
+  "visual_studio_code": {
+    "name": "Visual Studio Code",
+    "aliases": ["visual studio code", "vs code", "v s code", "vscode", "vs code editor", "code editor", "code editor app", "vs code app", "visual studio code app", "visualstudiocode", "visualstudio code", "code"]
+  }
+}

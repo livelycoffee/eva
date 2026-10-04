@@ -1,0 +1,66 @@
+{
+  "calculator":{
+    "name": "Calculator",
+    "aliases": ["calculator", "calculator app"],
+    "cmd": {
+      "open": "calculator:",
+      "close": "CalculatorApp.exe"
+    }
+  },
+  "chrome": {
+    "name": "Google Chrome",
+    "aliases": ["chrome", "google", "browser", "google chrome", "googlechrome", "browser app"],
+    "cmd": {
+      "open": "chrome",
+      "close": "chrome.exe"
+    }
+  },
+  "microsoft_edge": {
+    "name": "Microsoft Edge",
+    "aliases": ["microsoft edge", "edge", "ms edge", "edge browser", "microsoft edge browser"],
+    "cmd": {
+      "open": "msedge",
+      "close": "msedge.exe"
+    }
+  },
+  "notepad": {
+    "name": "Notepad",
+    "aliases": ["notepad", "note pad", "notepad app", "notes pad"],
+    "cmd": {
+      "open": "notepad",
+      "close": "notepad.exe"
+    }
+  },
+  "outlook": {
+    "name": "Outlook",
+    "aliases": ["outlook", "mail", "email", "outlook app", "new outlook"],
+    "cmd": {
+      "open": "olk.exe",
+      "close": "olk.exe"
+    }
+  },
+  "settings": {
+    "name": "System Settings",
+    "aliases": ["settings", "system settings", "preferences", "system preferences", "device settings"],
+    "cmd": {
+      "open": "ms-settings:",
+      "close": "SystenSettings.exe"
+    }
+  },
+  "visual_studio_code": {
+    "name": "Visual Studio Code",
+    "aliases": ["visual studio code", "vs code", "v s code", "vscode", "vs code editor", "code editor", "code editor app", "vs code app", "visual studio code app", "visualstudiocode", "visualstudio code", "code"],
+    "cmd": {
+      "open": "code",
+      "close": "Code.exe"
+    }
+  },
+  "whatsapp": {
+    "name": "WhatsApp",
+    "aliases": ["whatsapp", "whats app", "whatapp", "whatsapp app"],
+    "cmd": {
+      "open": "whatsapp:",
+      "close": "whatsapp.root.exe"
+    } 
+  }
+}

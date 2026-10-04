@@ -1,0 +1,31 @@
+# ---------- CONFIG FILE ----------
+# Welcome to the configuration file! Please change only if you know what you are doing.
+
+assistant:
+  name: "EVA"
+
+user:
+  name: "USER"
+
+models:
+  PRIMARY_LLM_MODEL: "qwen3:4b-q4_K_M" # default (best)
+  PIPER_MODEL: "models/voice_models/en_US-hfc_female-medium.onnx" # eg. models/voice_models/en_US-hfc_female-medium.onnx
+  # NOTE: Make sure you have a matching .onnx.json file for your model 
+  WHISPER_MODEL: "small.en" # or "small" (add ".en" for English-only)
+
+listener:
+  PAUSE_THRESHOLD: 1.5 # seconds
+  SPEECH_THRESHOLD: 3.5 # old - 3.5
+  AUDIO_THRESHOLD: 0.1 # old - 0.1
+  LOOP_SLEEP_TIME: 0.03 # seconds (old - 0.03)
+  STREAM_LIFETIME: 3 # seconds
+
+database:
+  CHAT_LOG: "database/chat_log.json"
+
+memory:
+  MAX_HISTORY: 50
+
+#*---------- END OF CONFIG ----------
+# NOTE: Please use "" (double quotes) for strings and '' (single quotes) for string literals.
+# While not enforced, it helps with debugging and other conflicts that may arise.
