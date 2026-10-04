@@ -25,15 +25,6 @@ Thumbs.db
 
 # Logs
 logs/*
-!logs/.gitkeep
-
-# Runtime storage
-storage/*
-!storage/.gitkeep
-
-# Local models
-models/*
-!models/.gitkeep
 
 # Testing / coverage
 .pytest_cache/
@@ -52,6 +43,3 @@ dist/
 *.tmp
 *.temp
 *.bak
-
-# OTHER / EVA
-logs/*
